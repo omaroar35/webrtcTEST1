@@ -33,4 +33,7 @@ video {
     margin: 16px;
     border-radius: 16px;
 }
+.hidden{
+  display:none
+}
 }

@@ -7,14 +7,14 @@
     <title>WebRTC Demo</title>
   </head>
   <body>
-    <h2>1. Start your Webcam</h2>
+    <h2 class="hidden">1. Start your Webcam</h2>
     <div class="videos">
-      <span>
+      <span class="hidden">
         <h3>Local Stream</h3>
         <video id="webcamVideo" class="video2" autoplay playsinline></video>
       </span>
       <span>
-        <h3>Remote Stream</h3>
+        <h3 class="hidden">Remote Stream</h3>
         <video id="remoteVideo" class="video1" autoplay playsinline></video>
       </span>
 
@@ -22,20 +22,20 @@
     </div>
 
     <button id="webcamButton">Start webcam</button>
-    <h2>2. Create a new Call</h2>
-    <button id="callButton" disabled>Create Call (offer)</button>
+    <h2 class="hidden">2. Create a new Call</h2>
+    <button class="hidden" id="callButton" disabled>Create Call (offer)</button>
 
-    <h2>3. Join a Call</h2>
-    <p>Answer the call from a different browser window or device</p>
+    <h2 class="hidden">3. Join a Call</h2>
+    <p class="hidden">Answer the call from a different browser window or device</p>
     
-    <input id="callInput" />
-    <button id="answerButton" disabled>Answer</button>
+    <input class="hidden" id="callInput" />
+    <button class="hidden" id="answerButton" disabled>Answer</button>
 
-    <h2>4. Hangup</h2>
+    <h2 class="hidden">4. Hangup</h2>
 
-    <button id="hangupButton" disabled>Hangup</button>
+    <button class="hidden" id="hangupButton" disabled>Hangup</button>
 
-    <script type="module" src="/main.js"></script>
+    <script class="hidden" type="module" src="/main.js"></script>
 
   </body>
 </html>
