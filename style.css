@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 
+body {
+  font-family: 'Syne Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin: 80px 10px;
+}
 
 video {
   width: 40vw;
@@ -33,7 +41,7 @@ video {
     margin: 16px;
     border-radius: 16px;
 }
-.hidden{
-  display:none
 }
+.hidden{
+  display: none;
 }
