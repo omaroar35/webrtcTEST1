@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebRTC Demo</title>
     <script type="module" crossorigin src="/webrtcTEST1/assets/index.17833a92.js"></script>
-    <link rel="stylesheet" href="/webrtcTEST1/assets/index.8e311705.css">
+    <link rel="stylesheet" href="/webrtcTEST1/assets/index.5b9bbafd.css">
   </head>
   <body>
-    <h2>1. Start your Webcam</h2>
+    <h2 class="hidden">1. Start your Webcam</h2>
     <div class="videos">
-      <span>
+      <span class="hidden">
         <h3>Local Stream</h3>
         <video id="webcamVideo" class="video2" autoplay playsinline></video>
       </span>
       <span>
-        <h3>Remote Stream</h3>
+        <h3 class="hidden">Remote Stream</h3>
         <video id="remoteVideo" class="video1" autoplay playsinline></video>
       </span>
 
@@ -24,18 +24,18 @@
     </div>
 
     <button id="webcamButton">Start webcam</button>
-    <h2>2. Create a new Call</h2>
-    <button id="callButton" disabled>Create Call (offer)</button>
+    <h2 class="hidden">2. Create a new Call</h2>
+    <button class="hidden" id="callButton" disabled>Create Call (offer)</button>
 
-    <h2>3. Join a Call</h2>
-    <p>Answer the call from a different browser window or device</p>
+    <h2 class="hidden">3. Join a Call</h2>
+    <p class="hidden">Answer the call from a different browser window or device</p>
     
-    <input id="callInput" />
-    <button id="answerButton" disabled>Answer</button>
+    <input class="hidden" id="callInput" />
+    <button class="hidden" id="answerButton" disabled>Answer</button>
 
-    <h2>4. Hangup</h2>
+    <h2 class="hidden">4. Hangup</h2>
 
-    <button id="hangupButton" disabled>Hangup</button>
+    <button class="hidden" id="hangupButton" disabled>Hangup</button>
 
     
 
